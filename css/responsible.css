@@ -1,0 +1,239 @@
+@media (max-width:768px) {
+  .wrap{
+    overflow: hidden;
+  }
+  /* Defalut CSS  */
+  body {
+    font-size: 16px;
+  }
+  section {
+    padding: 50px 15px;
+  }
+
+  .inner {
+    width: 100%;
+  }
+  /* only mobile  */
+  .mobile-none{
+    display: none;
+  }
+
+  /* Heading Font Size */
+  h1 {
+    font-size: 32px;
+  }
+
+  h2 {
+    font-size: 24px;
+  }
+
+  h3 {
+    font-size: 20px;
+  }
+  /* Common CSS   */
+  .headline_share p {
+    font-size: 14px;
+  }
+  /* header  */
+  header{
+    width: 100%;
+  }
+  nav{
+    width: 100%;
+    height: 90px;
+    align-items: center;
+    justify-content: space-around;
+  }
+  nav a img{
+    margin-top: 0;
+    width: 50px;
+  }
+  .r_header{
+    position: fixed;
+    width: 250px;
+    height: 100vh;
+    background-color: #fff;
+    flex-direction: column;
+    top: 0;
+    left: -260px;
+    box-shadow: 3px 0 3px hwb(0 0% 100% / 0.3);
+    text-align: left;
+    padding: 90px 20px;
+    transition: 0.5s;
+  }
+  .r_header.active {
+    left: 0;
+  }
+  nav h1 a{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .trigger_header{
+    display: block;
+    cursor: pointer;
+    position: absolute;
+    width: 40px;
+    height: 30px;
+    left: 20px;
+    top: 50%;
+    transform: translateY(-50%);
+  }
+  .trigger_header span{
+    position: absolute;
+    display: inline-block;
+    width: 100%;
+    height: 3px;
+    background-color: #000;
+    transition: 0.4s;
+  }
+  .trigger_header span:nth-child(1){
+    top: 0;
+    left: 0;
+  }
+  .trigger_header span:nth-child(2){
+    width: 70%;
+    top: 50%;
+    left: 0;
+  }
+  .trigger_header.active span{
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+  }
+  .trigger_header.active span:nth-child(1){
+    transform: translate(-50%,-50%) rotate(45deg);
+  }
+  .trigger_header.active span:nth-child(2){
+    width: 100%;
+    transform: translate(-50%,-50%) rotate(-45deg);
+  }
+  /* Welcome  */
+  #welcome {
+    background: url(../img/mobilebg.png) no-repeat center center;
+    background-size: cover;
+    height: 80vh;
+  }
+
+  #welcome .txt_welcome {
+    width: 100%;
+    top: 160px;
+    left: 50%;
+    transform: translateX(-50%);
+    text-align: center;
+  }
+
+  #welcome .txt_welcome span {
+    font-size: 24px;
+  }
+  /* About  */
+  #about .about-content {
+    flex-direction: column;
+    padding:60px 0 80px;
+    gap: 40px;
+  }
+  .l_about .img_about {
+    width: 100%;
+    height: 100%;
+  }
+  .l_about img {
+    width: inherit;
+    height: inherit;
+  }
+  .l_about h2{
+    font-size: 18px;
+  }
+  .l_about h2 span{
+    font-size: 24px;
+  }
+  .r_about{
+    width: 100%;
+    margin-left: 0;
+  }
+  .thums_about {
+    width: 100%;
+    flex-wrap: wrap;
+  }
+  .thum_about{
+    flex-wrap: wrap;
+  }
+  .pies_about{
+    flex-wrap: wrap;
+    height: auto;
+  }
+  .pies_about
+  .pie_about{
+    display: flex;
+    flex-direction: column;
+  }
+  /* portfolio  */
+  #portfolio{
+    padding: 60px 15px;
+  }
+  .portfolio-content{
+    width: 100%;
+  }
+  .tabs_port {
+    width: 100%;
+  }
+  .round-mockup{
+    width: 100%;
+  }
+  .mockup-slider {
+    height: auto;
+  }
+  .mockup-slider img{
+    width: 100%;
+  }
+  /* MOUSEOVER display:none  */
+  .intro_web h1,.intro_web small, .intro_web p ,.intro_web ul {
+    display: none;
+  }
+  /* Portfolio Slick  */
+  .mockup-slider button:not(.intro_web button){
+    display: none;
+  }
+  .mockup-slider button::before{
+    display: none;
+  }
+  #design {
+    padding: 60px 0;
+  }
+  .item_design{
+    width: 50%;
+    height: auto;
+  }
+  .item_design img {
+    width: 100%;
+  }
+  .item_design .cpation{
+    display: none;
+  }
+  /* my  */
+  #my {}
+  .my-content{
+    width: 100%;
+    flex-wrap: wrap;
+    gap: 8px;
+  }
+  .my-content > div{
+    width: 48%;
+  }
+  .item_my p{
+    word-break: keep-all;
+  }
+  /* contact  */
+  #contact img{
+    display: none;
+  }
+  .contact-content p{
+    font-size: 20px;
+  }
+  /* footer  */
+  footer {
+    width: 100%;
+  }
+  footer p {
+    margin-bottom: 20;
+  }
+}

@@ -1,0 +1,28 @@
+/* Font Icon CDN */
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css");
+/* Font Family CDN */
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100;300;400;500;700;900&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Bree+Serif&display=swap');
+
+:root {
+  /* font-family  */
+  --primary-kr: 'Noto Sans KR', sans-serif;
+  --primary-en: 'Roboto',sans-serif;
+  /* Text Color  */
+  --dark-black:#111111;
+  --light-black: #555555;
+  --dark-gray: #777777;
+  --light-gray: #999999;
+  --silver-gray: #C0C0C0;
+  --primary-orange:#EB7E3D;
+  /* Background color  */
+  --background-gray:#f9f9f9;
+  /* SubPage Main Color  */
+  --ena-main:#392DFF;
+  --melon-main:#44B149;
+  --innout-main:#FFCB05;
+  --border-gray:#d9d9d9;
+}
