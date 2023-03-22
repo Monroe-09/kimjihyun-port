@@ -304,7 +304,10 @@ input[id=tab2]:checked ~ .tabs_port .tab2{
   visibility: visible;
   opacity: 1;
 }
-
+.mobile-none{
+  font-weight: bold;
+  font-style: normal;
+}
 /* Portfolio Slick  */
 .mockup-slider button:not(.intro_web button){
   position: absolute;
